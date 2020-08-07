@@ -6,6 +6,10 @@ body {
     color: #EA1C2C;
 }
 
+.navbar {
+    background-color: rgba(0,0,0, 0.4);
+}
+
 .navbar .nav-link {
     font-size: 1.25rem;
     font-weight: 200;
@@ -29,12 +33,12 @@ body {
 }
 
 .navbar.scrolled {
-    background-color: rgba(0,0,0, 0.4);
+    background-color: rgba(0,0,0, 0.6);
     transition: background 500ms;
 }
 
 .navbar .dropdown-menu {
-    background-color: rgba(0,0,0, 0.4);
+    background-color: rgba(0,0,0, 0.6);
 }
 
 .navbar .dropdown-item {
